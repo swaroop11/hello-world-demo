@@ -5,7 +5,7 @@ node {
     }
     stage('Run Hello World Script') {
         // Make sure your script is executable or add 'chmod +x hello.sh'
-        sh 'chmod +x hello.sh'
-        sh './hello.sh'
+        sh 'chmod +x hello-world.sh'
+        sh './hello-world.sh'
     }
 }
